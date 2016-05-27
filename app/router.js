@@ -22,6 +22,7 @@ Router.map(function() {
   });
   this.route('register');
   this.route('forum');
+  this.route('login');
 });
 
 export default Router;
