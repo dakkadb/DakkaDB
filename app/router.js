@@ -21,6 +21,7 @@ Router.map(function() {
     this.route('necrons');
   });
   this.route('register');
+  this.route('forum');
 });
 
 export default Router;
