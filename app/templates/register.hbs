@@ -1,1 +1,20 @@
-<h1> Register </h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" id="title">Registration</h3>
+                </div>
+                <div class="panel-body" id="main">
+
+                    <form name="fos_user_registration_form" method="post" action="/register/" class="fos_user_registration_register">
+                        <div id="fos_user_registration_form"><div class="form-group"><label class="control-label required" for="fos_user_registration_form_email">Email</label><input type="email" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required" class="form-control" /></div><div class="form-group"><label class="control-label required" for="fos_user_registration_form_username">Username</label><input type="text" id="fos_user_registration_form_username" name="fos_user_registration_form[username]" required="required" maxlength="255" pattern=".{2,}" class="form-control" /></div><div class="form-group"><label class="control-label required" for="fos_user_registration_form_plainPassword_first">Password</label><input type="password" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" required="required" class="form-control" /></div><div class="form-group"><label class="control-label required" for="fos_user_registration_form_plainPassword_second">Repeat password</label><input type="password" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]" required="required" class="form-control" /></div><input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" class="form-control" value="2hjm0dRLZROmZ3WeGV4_MtyidqqPJCQmsqceqRifZlY" /></div>
+                        <div>
+                            <input type="submit" value="Register" class="btn btn-success"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
